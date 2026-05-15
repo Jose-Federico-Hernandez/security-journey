@@ -204,10 +204,18 @@ Combinadas con el módulo de Sistemas Informáticos (iLERNA DAW).
 - En seguridad: fundamental para crear laboratorios aislados sin riesgo.
 - Mi setup: VirtualBox sobre Windows 11, con Kali Linux 2026.1 como VM.
 
-### Cloud Computing *(pendiente — mañana)*
-- [ ] Modelos de servicio: IaaS, PaaS, SaaS
-- [ ] Modelos de despliegue: pública, privada, híbrida
-- [ ] Proveedores principales: AWS, Azure, GCP
+### Cloud Computing *(15/5/2026)*
+-  Modelos de servicio: IaaS, PaaS, SaaS
+-  Modelos de despliegue: pública, privada, híbrida
+-  Proveedores principales: AWS, Azure, GCP
+Terminologia:
+- Public Cloud: Servicios cloud a los que accedes a través de internet y que son compartidos por muchas personas y empresas.
+- Private Cloud: Una nube construida exclusivamente para una sola empresa, de forma que tenga mayor control y seguridad.
+- Hybrid Cloud: Una combinación de nube pública y privada que pueden trabajar juntas y compartir datos.
+- IaaS (Infrastructure as a Service): Un servicio donde alquilas componentes básicos de computación, como servidores y almacenamiento, desde la nube.
+- PaaS (Platform as a Service): Un servicio que proporciona un entorno listo para usar para desarrollar y ejecutar aplicaciones sin tener que administrar servidores.
+- SaaS (Software as a Service): Software que utilizas online sin instalar nada, como Gmail o Zoom.
+- EC2: Los ordenadores cloud de Amazon que puedes crear, usar y redimensionar rápidamente cuando los necesites.
 
 ---
 
