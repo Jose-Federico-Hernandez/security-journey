@@ -222,13 +222,13 @@ Terminologia:
 ## 4. Operating Systems Basics *(15/5/2026)*
 
 - Operating Systems: Introduction {
-  Sistema operativo (OS): El software principal que administra el hardware, las aplicaciones y todos los recursos del sistema.
-  Kernel space: La zona altamente privilegiada del sistema operativo con acceso directo al hardware, y donde reside el kernel, que administra directamente el hardware y los recursos del sistema.
-  User space: La zona donde se ejecutan las aplicaciones normales con permisos limitados para garantizar la seguridad y estabilidad del sistema.
-  Interfaz gráfica de usuario (GUI): La parte visual del sistema operativo —ventanas, iconos y menús— que te permite interactuar mediante clics y toques.
-  Interfaz de línea de comandos (CLI): Una interfaz basada en texto donde escribes comandos para controlar el sistema con precisión y rapidez.
+  - Sistema operativo (OS): El software principal que administra el hardware, las aplicaciones y todos los recursos del sistema.
+  - Kernel space: La zona altamente privilegiada del sistema operativo con acceso directo al hardware, y donde reside el kernel, que administra directamente el hardware y los recursos del sistema.
+  - User space: La zona donde se ejecutan las aplicaciones normales con permisos limitados para garantizar la seguridad y estabilidad del sistema.
+  - Interfaz gráfica de usuario (GUI): La parte visual del sistema operativo —ventanas, iconos y menús— que te permite interactuar mediante clics y toques.
+  - Interfaz de línea de comandos (CLI): Una interfaz basada en texto donde escribes comandos para controlar el sistema con precisión y rapidez.
  }
-- [ ] Windows Basics
+- Windows Basics *(15/5/2026)*
 - [ ] Linux CLI Basics
 - [ ] Windows CLI Basics
 - [ ] Operating System Security
