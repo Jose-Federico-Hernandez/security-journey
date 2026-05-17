@@ -229,7 +229,32 @@ Terminologia:
   - Interfaz de línea de comandos (CLI): Una interfaz basada en texto donde escribes comandos para controlar el sistema con precisión y rapidez.
  }
 - Windows Basics *(15/5/2026)*
-- [ ] Linux CLI Basics
+- Linux CLI Basics *(17/5/2026)*
+  - **Terminal**: Interfaz de control basada en texto para Linux
+      - **Comandos**:
+          - pwd: ¿Dónde estoy?
+          - ls: ¿Qué hay a mi alrededor? Si usamos "ls -l" tendremos una lista detallada del directorio actual. "ls -al" mostrará los archivos ocultos en el directorio actual.
+            Estos archivos "ocultos" no es que sean realmente secretos, pero al comenzar su nombre por un punto (.) Linux los oculta por defecto
+          - cd <directorio>: Para movernos entre directorios en terminal
+          - cd ..: Para movernos al directorio anterior.
+          - El directorio home se caracteriza con ~
+          - Find <punto_de_salida> -name <nombre_de_archivo>
+          - cat nombre_de_archivo: lee el contenido de un archivo
+       
+           Para practicar estos comandos, THM propone el siguiente ejercicio: "Tu supervisor mencionó haber dejado algunas tareas en el documento mission_brief.txt, en algún lugar del sistema; lo que significa que tu primera misión es encontrarlas. Para hacerlo, necesitarás aprender a moverte por el sistema de archivos de Linux." Para ello he seguido los siguientes pasos:
+          1) pwd: para asegurarme estar en hombre
+          2) Usé find ~ -name mission_brief.txt (Aquí consegui la ruta del archivo que es la primera pregunta)
+          3) Con el comando cat, ahora teniendo la ruta, leí el archivo y conseguí la flag. La sintaxis es <Ruta_del_Archivo> cat <nombre_del_archivo>
+          
+       - **Comandos**:
+          - whoami: El resultado de este comando es el nombre de usuario logeado.
+          - uname -a: Devuelve informacion sobre el sistema operativo, la version del kernel y la arquitectura. En la MV de ejemplo devuelve: "Linux tryhackme 6.14.0-1018-aws #18~24.04.1-Ubuntu SMP Mon Nov 24 19:46:27 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux"
+                 - Linux: El sistema esta corriendo un kernel linux
+                 - tryhackme: el hostname (el nombre del ordenador)
+                 - 6.14.0-1018.aws: La version de kernel
+                 - x86_64: la plataforma de hardware
+                 - GNU/Linux: El tipo de sistema operativo 
+    
 - [ ] Windows CLI Basics
 - [ ] Operating System Security
 
