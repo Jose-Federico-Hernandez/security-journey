@@ -254,7 +254,10 @@ Terminologia:
                  - 6.14.0-1018.aws: La version de kernel
                  - x86_64: la plataforma de hardware
                  - GNU/Linux: El tipo de sistema operativo 
-    
+          - df -h: Da información sobre el uso de disco y el espacio disponible. (-h es "human readable" para que la informacion salga en GB o MB y no en bytes.
+          - /etc es el directorio en el que linux guarda archivos de configuracion
+        
+        
 - [ ] Windows CLI Basics
 - [ ] Operating System Security
 
