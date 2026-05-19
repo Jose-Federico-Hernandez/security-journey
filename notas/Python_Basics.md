@@ -11,3 +11,15 @@ text=input("Inténta averiguarlo: ") #input nos devuelve un string
 guess =int(text) #convertimos el string en numero
 tries=tries+1 #sumamos uno al contador de intentos por cada intento
 ```
+Hasta aquí tenemos inicializadas las variables y los mensajes por consola, pero falta la lógica completa del programa.
+```Python
+if guess <1 or guess >20:
+  print("El número está fuera del rango. Inténtalo de nuevo.")
+elif guess < secret:
+  print("Demasiado bajo, prueba de nuevo")
+elif guess < secret:
+  print("Demasiado alto, prueba de nuevo")
+else:
+  print("Acertaste. Te tomó", tries, "intentos")
+```
+Aquí es donde se encuentra la lógica del programa. Utilizando la condicion lógica if-else tenemos en cuenta los posibles casos en el juego: el numero está fuera de rango, es demasiado alto, es demasiado bajo o lo has acertado. Tener en cuenta que, a diferencia de en Java, la sintaxis correcta es elif.
