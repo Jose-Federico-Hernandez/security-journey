@@ -287,10 +287,11 @@ Terminologia:
 
 - Data Representation:
     - Sistema Hexadecimal: Un digito hexadecimal representa a 4 bits de informacion, de manera que podamos representar, en el caso de colores: 256x256x256 colores.
-      |Hexadecimal|Binario|
-      |0|0000|
-      |1|0001|
-      |2|0010|
+      | Hexadecimal | Binario |
+      | ----------- | ------- |
+      | 0 | 0000 |
+      | 1 | 0001 |
+      | 2 | 0010 |
       etc
 - [ ] Data Encoding
 - [ ] Python: Simple Demo
