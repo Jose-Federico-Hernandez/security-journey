@@ -258,8 +258,28 @@ Terminologia:
           - /etc es el directorio en el que linux guarda archivos de configuracion
         
         
-- [ ] Windows CLI Basics
-- [ ] Operating System Security
+- Windows CLI Basics *(19/05/2026)*
+      - Voy a hacer un ejercicio similar al anterior en THM, pero esta vez con Windows.
+        - **COMANDOS**:
+              - cd: directorio actual y cambiar de directorio
+              - dir: lista el contenido del directorio actual. dir /a para incluir contenido oculto
+              - dir /s: Es parecido a find de linux. Busca el archivo en todas las subcarpetas desde el directorio actual
+              - type: leer el contenido de un archivo
+              - whoami: El nombre de usuario desde el cual estas logeado cd
+              - hostname: nombre del pc
+              - systeminfo: detalle del sistema operativo
+              - ipconfig: informacion de conexion basica
+-  Operating System Security
+    - CIA (Confindetially Integrity Availability)
+    - Seguridad de las contraseñas.
+ 
+    - Vamos a hacer un ejercicio en una VM de Linux que cobra el conocimiento de los siguientes comandos:
+       - whoami
+       - ssh USERNAME@MACHINE_IP
+       - ls
+       - cat FILENAME
+       - history
+       Enunciado: Nos contratan para checkear la seguridad de una compañia. Cuando vamos, en un postit hay escrito "sammie" y "dragon" en una de las pantallas. Vamos a comprobar si dragon es la pass para sammie. Para ello: ssh sammie@10.130.142.232 en terminal y escribimos dragon. Si es correcto, whoami debe devolver sammie. Una vez estamos en Sammie, listamos con ls. Con cat podremos ver el contenido de los archivos de sammie (entre ellos un archivo de texto con la contraseña, fallo de seguridad) En ultima instancia usamos "history" para ver los comandos que ha usado esa persona anteriormente. El ejercicio ahora propone otros dos usuarios: Johnny y Linda. Trataremos de conectar a Johnny usando las contraseñas mas usadas, una por una. Conseguimos entrar a Johnny con abc123. Veamos su history. En el history encontramos un error por el cual Johnny typea la pass del root en vez de su comando. El ejercicio acaba entrando a root y leyendo la flag.
 
 ---
 
