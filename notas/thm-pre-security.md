@@ -293,9 +293,9 @@ Terminologia:
       | 1 | 0001 |
       | 2 | 0010 |
       etc
-- [ ] Data Encoding
-- [ ] Python: Simple Demo
-- [ ] JavaScript: Simple Demo
+- Data Encoding: Sitema ASCII
+- Python: Simple Demo: Ver Python_Basics
+- JavaScript: Simple Demo; Ver JavaScript_Basics *(20/5/2026)*
 - [ ] Database SQL Basics
 
 ---
