@@ -82,3 +82,59 @@ Veamos un resumen de lo que hemos hecho hasta ahora:
   - El número de intentos aumenta en uno.
   - Finalmente, limpiamos y cerramos la interfaz readline, rl, que habíamos creado anteriormente.
 
+Llegados a este punto, toca implementar la lógica del programa, que será exactamente la misma que en el programa de Python pero ajustando la sintaxis:
+
+```javascript
+if (guess < 1 || guess > 20){
+    console.log("El número esta fuera de rango, Prueba de nuevo");
+}else if (guess < secret){
+    console.log("El número es muy pequeño. Prueba de nuevo");
+}else if (guess > secret){
+    console.log("El número es muy grande. Prueba de nuevo");
+}else {
+    console.log("¡Lo has conseguido en", tries, "intentos!");
+}
+```
+
+Hasta ahora, el juego se repetiría una sola vez, si aciertas a la primera esta bien, pero si no, no es muy divertido. Vamos a solucionarlo con una estructura iterativa: el bucle.
+```javascript
+while (guess !==secret) {
+//aquí va todo el código que queremos que se repita
+}
+```
+
+Y poniendolo todo junto, el resultado final seria tal que:
+
+```javascript
+import * as readline from "node:readline/promises";
+import { stdin as input, stdout as output } from "node:process";
+
+const rl = readline.createInterface({ input, output });
+
+try {
+    const secret = Math.floor(Math.random() * (20)) + 1; // 1 <= secret <= 20
+    let tries = 0;
+    let guess = 0; 
+
+  console.log("Estoy pensando un número entre el 1 y el 20...");
+
+while (guess!==secret){
+  const text = await rl.question("Take a guess: "); // r1.question devuelve texto (del usuario)
+  guess = parseInt(text, 10); // convertimos el texto a numero
+
+  tries = tries + 1; // añade un intento
+
+  if (guess < 1 || guess > 20){
+   console.log("El número esta fuera de rango, Prueba de nuevo");
+  }else if (guess < secret){
+   console.log("El número es muy pequeño. Prueba de nuevo");
+  }else if (guess > secret){
+   console.log("El número es muy grande. Prueba de nuevo");
+  }else {
+   console.log("¡Lo has conseguido en", tries, "intentos!");
+  }
+}
+} finally {
+    rl.close();
+}
+```
