@@ -296,14 +296,23 @@ Terminologia:
 - Data Encoding: Sitema ASCII
 - Python: Simple Demo: Ver Python_Basics
 - JavaScript: Simple Demo; Ver JavaScript_Basics *(20/5/2026)*
-- [ ] Database SQL Basics
+- Database SQL Basics: SELECT, ORDER BY, FROM (sentencias basicas de SQL)
 
 ---
 
-## 6. Attacks and Defenses *(pendiente)*
+## 6. Attacks and Defenses *(21/5/2026)*
 
-- [ ] The CIA Triad
-- [ ] Cryptography Concepts
+- The CIA Triad: Los tres pilares sobre los cuales se construye la ciberseguridad ESP(Confidencialidad, Integridad, Disponibilidad) ING(Confidentiality, Integrity, Availability)
+    - Confidencialidad: Los datos sensibles solo pueden ser accedidos por personas autorizadas.
+    - Integridad: Los datos solo pueden ser modificados por personas autorizadas.
+    - Disponibilidad: Garantiza que los datos y servicios estén accesibles para los usuarios autorizados cuando los necesiten.
+-  Cryptography Concepts:
+    - Plantext: Un mensaje que puedes leer con normalidad
+    - Ciphertext: Un texto cifrado que no parece tener sentido
+    - Key: El ingrediente que controla como funciona el cifrado y descifrado
+    - Algorithm: La receta publica, la lista de pasos que explica como usar la key en un mensaje. Aunque todos puedan conocer el algoritmo, la seguridad recae en mantener secreta la key.
+ 
+    - Symmetric Encription: Una caja con cerradura en extremo A. En extremo A con una llave se cierra la cerradura. El contenido va protegido todo el camino hasta el punto B. En el punto B, con una copia de esa misma llave, se abre la cerradura.
 - [ ] Become a Hacker
 - [ ] Become a Defender
 
