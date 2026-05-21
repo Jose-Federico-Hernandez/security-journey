@@ -307,13 +307,34 @@ Terminologia:
     - Integridad: Los datos solo pueden ser modificados por personas autorizadas.
     - Disponibilidad: Garantiza que los datos y servicios estén accesibles para los usuarios autorizados cuando los necesiten.
 -  Cryptography Concepts:
-    - Plantext: Un mensaje que puedes leer con normalidad
-    - Ciphertext: Un texto cifrado que no parece tener sentido
-    - Key: El ingrediente que controla como funciona el cifrado y descifrado
-    - Algorithm: La receta publica, la lista de pasos que explica como usar la key en un mensaje. Aunque todos puedan conocer el algoritmo, la seguridad recae en mantener secreta la key.
- 
-    - Symmetric Encription: Una caja con cerradura en extremo A. En extremo A con una llave se cierra la cerradura. El contenido va protegido todo el camino hasta el punto B. En el punto B, con una copia de esa misma llave, se abre la cerradura.
-- [ ] Become a Hacker
+    - El texto plano (plaintext) es lo que puedes leer.
+    - El texto cifrado (ciphertext) es información convertida en datos incomprensibles.
+    - Una clave (key) es el secreto que controla el cifrado y descifrado.
+    - Un algoritmo es el método público utilizado para aplicar la clave.
+
+También vimos dos tipos principales de cifrado:
+
+  - El cifrado simétrico utiliza una única clave tanto para cifrar como para descifrar. Es rápido y eficiente, pero requiere una forma segura de compartir esa clave. Usamos el cifrado César para entender cómo funciona.
+  - El cifrado asimétrico utiliza dos claves relacionadas: una clave pública, que cualquiera puede usar, y una clave privada, que solo conserva el propietario.
+
+Esto resuelve el problema de distribución de claves y permite el handshake inicial de las conexiones HTTPS.
+Además, vimos cómo los sistemas reales combinan ambos tipos:
+
+- El cifrado asimétrico establece una clave compartida al inicio.
+- El cifrado simétrico maneja los datos reales porque es mucho más rápido.
+
+Esa combinación es la que protege tus contraseñas, datos bancarios y mensajes cuando ves el candado en tu navegador.
+
+La criptografía es una de las herramientas más importantes en el arsenal de un defensor. Protege la confidencialidad y la integridad, y es la base de casi todos los sistemas seguros que utilizas en Internet. Pero no es magia. Es solo una capa dentro de un panorama de seguridad mucho más amplio que incluye:
+
+Buenas prácticas de contraseñas.
+Almacenamiento seguro de claves.
+Concienciación y formación de usuarios.
+Actualizaciones regulares de software.
+Monitorización y respuesta ante incidentes.
+
+Comprender cómo funciona la criptografía y dónde puede fallar te ayuda a pensar de manera más crítica sobre todas esas otras capas de seguridad.
+- [ ] Become a Hacker: Ver Offensive_Security_Basics
 - [ ] Become a Defender
 
 ---
