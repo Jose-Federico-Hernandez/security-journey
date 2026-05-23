@@ -334,25 +334,9 @@ Actualizaciones regulares de software.
 Monitorización y respuesta ante incidentes.
 
 Comprender cómo funciona la criptografía y dónde puede fallar te ayuda a pensar de manera más crítica sobre todas esas otras capas de seguridad.
-- [ ] Become a Hacker: Ver Offensive_Security_Basics
-- [ ] Become a Defender
+- Become a Hacker: Ver Offensive_Security_Basics
+- Become a Defender: Ver Defensive_Security_Basics
 
 ---
 
-## Log de progreso
 
-| Fecha | Módulo completado |
-|-------|------------------|
-| 2026-05 | What is Networking |
-| 2026-05 | Intro to LAN |
-| 2026-05 | OSI Model |
-| 2026-05 | Packets & Frames |
-| 2026-05 | Extending Your Network |
-| 2026-05 | DNS in Detail |
-| 2026-05 | HTTP in Detail |
-| 2026-05 | How Websites Work |
-| 2026-05 | Putting it all together |
-| 2026-05 | Inside a Computer System |
-| 2026-05 | Computer Types |
-| 2026-05 | Client-Server Basics |
-| 2026-05 | Virtualisation Basics |
