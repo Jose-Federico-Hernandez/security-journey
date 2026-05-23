@@ -10,8 +10,8 @@ Documentación de mi camino desde DAW hacia Security Engineer.
 ##Roadmap
 | Fase | Contenido | Estado |
 |------|-----------|--------|
-| Fase 0 | Preparación, entorno, mentalidad | 🔄 En progreso |
-| Fase 1 | Fundamentos (redes, Linux, scripting) | ⏳ Pendiente |
+| Fase 0 | Preparación, entorno, mentalidad | COMPLETO  |
+| Fase 1 | Fundamentos (redes, Linux, scripting) | EN PROGRESO |
 | Fase 2 | Base técnica (seguridad ofensiva) | ⏳ Pendiente |
 | Fase 3 | Especialización | ⏳ Pendiente |
 
