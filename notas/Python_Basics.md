@@ -3,7 +3,7 @@ Siguiendo el curso de THM, el siguiente bloque es introduccion a Python. Las not
 Como primer ejemplo, vamos a crear un programa que haga que el ordenador eliga aleatoriamente un número del 1 al 20 y el usuario tenga que adivinarlo, contando también la cantidad de intentos que ha necesitado.
 ```Python
 import random #Biblioteca para elegir numeros aleatorios
-numeroSecreto = random.randint(1, 20) #Utilizamos la función random para que la máquina elija un numero aleatorio de 1 a  20
+secret = random.randint(1, 20) #Utilizamos la función random para que la máquina elija un numero aleatorio de 1 a  20
 tries=0
 guess=0 #Inicializamos variables teniendo en cuenta que guess no puede estar dentro del rango de numero de numeroSecreto
 print("Estoy pensando un número del 1 al 20...") 
@@ -17,7 +17,7 @@ if guess <1 or guess >20:
   print("El número está fuera del rango. Inténtalo de nuevo.")
 elif guess < secret:
   print("Demasiado bajo, prueba de nuevo")
-elif guess < secret:
+elif guess > secret:
   print("Demasiado alto, prueba de nuevo")
 else:
   print("Acertaste. Te tomó", tries, "intentos")
@@ -28,7 +28,7 @@ Para hacer que el programa se repita hasta que el numero se acierte, tendremos q
 ```Python
 import random #Biblioteca para elegir numeros aleatorios
 
-numeroSecreto = random.randint(1, 20) #Utilizamos la función random para que la máquina elija un numero aleatorio de 1 a  20
+secret = random.randint(1, 20) #Utilizamos la función random para que la máquina elija un numero aleatorio de 1 a  20
 tries=0
 guess=0 #Inicializamos variables teniendo en cuenta que guess no puede estar dentro del rango de numero de numeroSecreto
 
@@ -42,7 +42,7 @@ while guess !=secret: #Aquí es donde comienza el bucle. Se lee "Mientras guess 
     print("El número está fuera del rango. Inténtalo de nuevo.")
   elif guess < secret:
     print("Demasiado bajo, prueba de nuevo")
-  elif guess < secret:
+  elif guess > secret:
     print("Demasiado alto, prueba de nuevo")
   else:
     print("Acertaste. Te tomó", tries, "intentos")
