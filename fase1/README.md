@@ -1,1 +1,5 @@
-
+- Redes informáticas y criptografía
+- Fundamentos de MS Windows, Active Directory y Linux
+- Herramientas de seguridad ofensiva y explotación de sistemas
+- Soluciones y herramientas de seguridad defensiva
+- Carreras profesionales en ciberseguridad
