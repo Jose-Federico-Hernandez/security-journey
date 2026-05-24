@@ -30,3 +30,31 @@ tryhackme@linux1:~$ aquí van los comandos
 | >> | Es igual que > pero > sobreescribe cada vez que se usa y >> no |
 
 Fin parte 1
+
+Para el inicio de la segunda parte hemos hecho una conexion con ssh para acceder a la room. El usuario era tryhackme y la IP la conseguíamos en una cabecera al iniciar la MV.
+La sintaxis:
+
+```bash
+ssh tryhackme@<IP_aqui>
+```
+
+Esto nos conecta con el usuario tryhackme. Al logear use whoami para saber que había sido exitoso.
+
+## Flags y Switches
+
+Son modificadores para los comandos. (Anteriormente vimos -R en grep para recursividad) En el ejemplo se usa ls -a (contraccion para -all) para que liste archivos ocultos.
+Los comandos que aceptan esto, tienen también una opcion --help, que lista las posibles opciones que acepta el comando.Como vimos anteriormente, también podemos usar man ls" para dirigirnos al manual
+
+
+## Interacción de archivos
+
+Veamos unos comandos que nos permitirán crear, mover y eliminar archivos y carpetas.
+
+| Comando | Nombre Completo | Uso |
+| ------- | --------------- | --- |
+| touch | touch | crear archivo |
+| mkdir | make directory | crear una carpeta |
+| cp | copy | copia un archivo o carpeta |
+| mv | move | mueve un archivo o carpeta |
+| rm / rm -R | remove | elimina un archivo / carpeta |
+| file | file | determina el tipo de un archivo | 
