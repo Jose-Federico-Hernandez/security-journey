@@ -1,13 +1,13 @@
-#Security Journey
+# Security Journey
 
 Documentación de mi camino desde DAW hacia Security Engineer.
 
-##Sobre mí
+## Sobre mí
 - Estudiante de CFGS DAW en iLERNA Online
 - Trabajando en hostelería con horario irregular
 - Empezando desde cero en ciberseguridad
 
-##Roadmap
+## Roadmap
 | Fase | Contenido | Estado |
 |------|-----------|--------|
 | Fase 0 | Preparación, entorno, mentalidad | COMPLETO  |
