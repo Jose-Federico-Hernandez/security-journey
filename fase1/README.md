@@ -16,4 +16,5 @@ Path completado en TryHackMe como base para el objetivo Security Engineer.
 | Módulo | Archivo | Estado |
 |---|---|---|
 | Search Skills | [search_skills.md](./search_skills.md) | ✅ |
-| Linux Fundamentals | [search linux_fundamentals.md](./linux_fundamentals.md) |  |
+| Linux Fundamentals | [search linux_fundamentals.md](./linux_fundamentals.md) | ✅ |
+| Windows Powershell | [search windows_powershell.md](./windows_powershell.md) | ✅ |
